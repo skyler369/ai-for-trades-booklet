@@ -1,5 +1,5 @@
 # AI FOR PLUMBERS
-## The Exact Prompts to Save You 30 Minutes a Day — Version 2.0
+## Your Daily AI Shortcut — Saving You Hours Every Day (Version 2.0)
 
 ---
 
