@@ -25,6 +25,33 @@
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
+    /* Page break controls */
+    h1, h2, h3, h4, h5, h6 {
+      page-break-after: avoid;
+      break-after: avoid;
+    }
+    .level1, .level2, .level3, .level4 {
+      page-break-before: auto;
+      break-before: auto;
+    }
+    pre, code, blockquote {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    table, figure, img {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    /* Force page break before each major section */
+    .level2 {
+      page-break-before: always;
+      break-before: always;
+    }
+    /* Keep related content together */
+    p {
+      orphans: 3;
+      widows: 3;
+    }
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
