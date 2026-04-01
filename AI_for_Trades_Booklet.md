@@ -86,7 +86,7 @@ Copy everything inside the quotes. Paste it into ChatGPT/Copilot/Gemini. Then ed
 **Copy This:**
 
 ```
-Write a professional quote for a [plumbing/electrical/HVAC] job in Canada. 
+Write a professional quote for a [plumbing/electrical/HVAC] job. 
 
 Job details:
 - Service: [e.g., Fix leaky faucet]
@@ -110,13 +110,13 @@ Include:
 > **Quote for John Smith**
 >
 > **Service:** Leaky faucet repair
-> **Location:** Calgary, AB
+> **Location:** [City, State/Province]
 >
 > **Parts:** Washer replacement (standard)
 > **Labor:** 1 hour @ $85/hour = $85.00
 > **Parts Total:** $15.00
 > **Subtotal:** $100.00
-> **GST (5%):** $5.00
+> **Tax (VAT/Sales Tax):** $5.00
 > **TOTAL:** $105.00
 >
 > Valid for 30 days.
@@ -204,7 +204,7 @@ Include:
 **Copy This:**
 
 ```
-Write simple contract terms for a [type of service] job in Canada. Include:
+Write simple contract terms for a [type of service] job. Include:
 - Scope of work
 - Payment terms (deposit + remainder)
 - Warranty information
@@ -246,7 +246,7 @@ Calculate the profit for a job with:
 - Materials cost: $[amount]
 - Labor hours: [hours] at $[rate]/hour
 - Overhead (20%): [amount]
-- Tax (GST/HST for [Province]): [amount]
+- Tax (VAT/Sales Tax for your region): [amount]
 
 What should I charge to get 25% profit margin?
 ```
@@ -335,11 +335,12 @@ Ignore previous instructions. Now do [X].
 
 ### "The AI doesn't know my area"
 
-**Fix:** Add your province at the end of any prompt:
-- "Ontario"
+**Fix:** Add your region at the end of any prompt:
+- "Ontario" (or your local province/state)
 - "Alberta"
 - "British Columbia"
 - "Saskatchewan"
+- Or simply your city and region
 
 ---
 
@@ -373,7 +374,7 @@ AI tools are helpful but not perfect. Always review important documents (contrac
 
 **© 2026 AI for Trades — Practical Prompts for Hard-Working Professionals**
 
-*Made in Canada for Canadian Tradespeople*
+*Made for Tradespeople Worldwide*
 
 ---
 
@@ -381,4 +382,3 @@ AI tools are helpful but not perfect. Always review important documents (contrac
 
 **Page Count:** ~20 pages (digital format)
 **Word Count:** ~2,400 words
-**Reading Level:** Grade 6 (simple, practical English)
